@@ -13,55 +13,55 @@ const Project = () => {
         <a href="https://github.com/AashishKr27/Amazon-Clone" rel="noreferrer" target="_blank" className="bhr">
           <div className="project">
             <img className="img" src={amazomClone} alt="amazon-clone" />
-            <h2>Amazon-Clone</h2>
+            <h2 className="lele">Amazon-Clone</h2>
           </div>
         </a>
         <a href="https://github.com/AashishKr27/portfolio" rel="noreferrer" target="_blank" className="bhr">
           <div className="project">
             <img className="img" src={ashishKumar} alt="amazon-clone" />
-            <h2>Portfolio</h2>
+            <h2 className="lele">Portfolio</h2>
           </div>
         </a>
         <a href="https://github.com/AashishKr27/Amazon-Clone" rel="noreferrer" target="_blank" className="bhr">
           <div className="project">
             <img className="img" src={amazomClone} alt="amazon-clone" />
-            <h2>Amazon Clone</h2>
+            <h2 className="lele">Amazon Clone</h2>
           </div>
         </a>
         <a href="https://github.com/AashishKr27/Amazon-Clone" rel="noreferrer" target="_blank" className="bhr">
           <div className="project">
             <img className="img" src={amazomClone} alt="amazon-clone" />
-            <h2>Amazon Clone</h2>
+            <h2 className="lele">Amazon Clone</h2>
           </div>
         </a>
         <a href="https://github.com/AashishKr27/Amazon-Clone" rel="noreferrer" target="_blank" className="bhr">
           <div className="project">
             <img className="img" src={amazomClone} alt="amazon-clone" />
-            <h2>Amazon Clone</h2>
+            <h2 className="lele">Amazon Clone</h2>
           </div>
         </a>
         <a href="https://github.com/AashishKr27/Amazon-Clone" rel="noreferrer" target="_blank" className="bhr">
           <div className="project">
             <img className="img" src={amazomClone} alt="amazon-clone" />
-            <h2>Amazon Clone</h2>
+            <h2 className="lele">Amazon Clone</h2>
           </div>
         </a>
         <a href="https://github.com/AashishKr27/Amazon-Clone" rel="noreferrer" target="_blank" className="bhr">
           <div className="project">
             <img className="img" src={amazomClone} alt="amazon-clone" />
-            <h2>Amazon Clone</h2>
+            <h2 className="lele">Amazon Clone</h2>
           </div>
         </a>
         <a href="https://github.com/AashishKr27/Amazon-Clone" rel="noreferrer" target="_blank" className="bhr">
           <div className="project">
             <img className="img" src={amazomClone} alt="amazon-clone" />
-            <h2>Amazon Clone</h2>
+            <h2 className="lele">Amazon Clone</h2>
           </div>
         </a>
         <a href="https://github.com/AashishKr27/Amazon-Clone" rel="noreferrer" target="_blank" className="bhr">
           <div className="project">
             <img className="img" src={amazomClone} alt="amazon-clone" />
-            <h2>Amazon Clone</h2>
+            <h2 className="lele">Amazon Clone</h2>
           </div>
         </a>
       </div>
