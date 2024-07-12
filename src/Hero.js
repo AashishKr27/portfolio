@@ -95,6 +95,7 @@ const Hero = () => {
           detectRetina: true,
         }}
       /> */}
+      
       <div className="hb">
         <div className="hbbc">
           <h1 className="hc">
