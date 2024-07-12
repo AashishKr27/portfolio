@@ -9,6 +9,7 @@ import Skills from "./Skills.js"
 import Footer from "./Footer.js"
 import AOS from "aos"
 import "aos/dist/aos.css"
+import Project from "./Project.js"
 // import "./Main.css"
 const Main = () => {
   // const [nav, setnav] = useState(false)
@@ -47,6 +48,7 @@ const Main = () => {
         <div className="mainIn">
           <About />
           <Services />
+          <Project />
           <Skills />
           {/* {Project "NO PROJECTS YET...."} */}
           <Footer />
