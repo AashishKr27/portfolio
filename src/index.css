@@ -905,11 +905,9 @@ span {
   align-items: center;
   width: 400px;
   height: 350px;
-}
-a{
+  font-style: italic;
   text-decoration: none;
   color: white;
-  font-style: italic;
 }
 .project {
   display: flex;
@@ -933,7 +931,7 @@ a{
   
 }
 
-img {
+.img {
   opacity: 0.8;
   margin-top: 1em;
   width: 70%;
@@ -964,4 +962,9 @@ img {
     width: 400px;
     height: 400px;
   }
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
 }
