@@ -5,6 +5,7 @@ import ashishKumar from './ashishKumar.jpg'
 import sonarRock from './sonarRock.jpg'
 import diabetes from './diabetes.jpg'
 import housePrice from './housePrice.jpg'
+import weather from './weather.jpg'
 
 const Project = () => {
   return (
@@ -25,6 +26,12 @@ const Project = () => {
             <h2 className="lele">Portfolio</h2>
           </div>
         </a>
+        <a href="https://github.com/AashishKr27/react-weather-app" rel="noreferrer" target="_blank" className="bhr">
+          <div className="project">
+            <img className="img" src={weather} alt="amazon-clone" />
+            <h2 className="lele">Weather App</h2>
+          </div>
+        </a>
         <a href="https://github.com/AashishKr27/Sonar-Rock-vs-Mine-Prediction" rel="noreferrer" target="_blank" className="bhr">
           <div className="project">
             <img className="img" src={sonarRock} alt="sonarRock" />
@@ -41,12 +48,6 @@ const Project = () => {
           <div className="project">
             <img className="img" src={housePrice} alt="amazon-clone" />
             <h2 className="lele">House Price Prediction</h2>
-          </div>
-        </a>
-        <a href="https://github.com/AashishKr27/Amazon-Clone" rel="noreferrer" target="_blank" className="bhr">
-          <div className="project">
-            <img className="img" src={amazomClone} alt="amazon-clone" />
-            <h2 className="lele">Amazon Clone</h2>
           </div>
         </a>
         <a href="https://github.com/AashishKr27/Amazon-Clone" rel="noreferrer" target="_blank" className="bhr">
