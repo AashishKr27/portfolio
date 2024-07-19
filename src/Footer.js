@@ -1,7 +1,6 @@
 import {
     DevicePhoneMobileIcon,
     EnvelopeIcon,
-    MapIcon
   } from "@heroicons/react/16/solid"
   import React from "react"
   // import "./Footer.css"
@@ -10,15 +9,6 @@ import {
     return (
       <div id="contact" className="fa">
         <div className="fb">
-          <div className="fc">
-            <div className="fd">
-              <MapIcon className="fe" />
-            </div>
-            <div className="">
-              <h1 className="ff">Address</h1>
-              <p className="fg">F-176, Beta II, Greater Noida</p>
-            </div>
-          </div>
           <div className="fc">
             <div className="fd ">
               <DevicePhoneMobileIcon className="fe" />

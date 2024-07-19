@@ -11,7 +11,7 @@ const Skills = () => {
       <div className="kb">
         <div data-aos="fade-left">
           <SkillsItems title="React JS Developer" year="2022-present" />
-          <SkillsItems title="Mern Stack Developer" year="2022-present" />
+          <SkillsItems title="ML Engineer" year="2022-present" />
           <SkillsLanguage
             skill1="REACT JS"
             skill2="css"
@@ -23,7 +23,7 @@ const Skills = () => {
         </div>
         <div data-aos="fade-right">
           <SkillsItems title="Next JS Developer" year="2022-present" />
-          <SkillsItems title="Node JS Developer" year="2022-present" />
+          <SkillsItems title="Programmer" year="2022-present" />
           <SkillsLanguage
             skill1="C++"
             skill2="PYTHON"

@@ -172,7 +172,7 @@ ArrowDownTrayIcon {
   display: grid;
   border-bottom: 1px solid #cbd5e1; /* border-b-[1px] border-gray-400 */
   padding-bottom: 6rem;
-  grid-template-columns: repeat(1, minmax(0, 1fr)); /* grid-cols-1 */
+  grid-template-columns: repeat(1, 1fr); /* grid-cols-1 */
   gap: 3rem; /* gap-[3rem] */
   width: 80%; /* w-[80%] */
   margin-left: auto; /* mx-auto */
@@ -267,7 +267,7 @@ ArrowDownTrayIcon {
 
 @media (min-width: 768px) {
   .fb {
-    grid-template-columns: repeat(2, minmax(0, 1fr)); /* md:grid-cols-2 */
+    grid-template-columns: repeat(2, 1fr); /* md:grid-cols-2 */
   }
   .fd {
     width: 6.5rem;
@@ -292,7 +292,7 @@ ArrowDownTrayIcon {
 
 @media (min-width: 1024px) {
   .fb {
-    grid-template-columns: repeat(3, minmax(0, 1fr)); /* lg:grid-cols-3 */
+    grid-template-columns: repeat(2, 1fr); /* lg:grid-cols-3 */
   }
   .final {
     width: 20%;
@@ -607,7 +607,7 @@ span {
 
 @media (min-width: 768px) {
   .sa {
-    padding-top: 8rem; /* md:pt-[8rem] */
+    padding-top: 4rem; /* md:pt-[8rem] */
   }
 }
 
@@ -652,19 +652,12 @@ span {
 }
 
 .sf {
-  font-size: 20px; /* text-[20px] */
+  font-size: 25px; /* text-[20px] */
   margin-top: 1.5rem; /* mt-[1.5rem] */
   margin-bottom: 1.5rem; /* mb-[1.5rem] */
 }
 
-@media (min-width: 768px) {
-  .sf {
-    font-size: 30px; /* md:text-[30px] */
-  }
-  .zz {
-    font-size: 26px;
-  }
-}
+
 
 .sg {
   font-size: 15px; /* text-[15px] */
@@ -971,4 +964,60 @@ a{
 }
 .lele{
   color: #55e6a5;
+}
+
+.socialP{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.4em solid rgb(141, 211, 238);
+  border-radius: 2em;
+  height: 10em;
+  background-color: rgb(34, 37, 38);
+}
+
+.papa{
+  color: white;
+  width: 16.66%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  transition: all 0.7s;
+  border-radius: 1em;
+}
+
+.papa:hover{
+  background-color: #f9f9f98f;
+  transition: all 0.7s;
+  .cicon{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+}
+
+.cicon{
+  filter: invert(100%);
+  width: 50%;
+  height: 50%;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+
+.zara{
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width:768px){
+  .socialP{
+    height: 6em;
+  }
 }

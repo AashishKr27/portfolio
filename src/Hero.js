@@ -103,7 +103,7 @@ const Hero = () => {
           </h1>
           <TextEffect />
           <p className="hj">
-            I`m a 3rd year undergrad and very skillful front-end developer and
+            I`m a 4th year undergrad and very skillful front-end developer and
             passionate in problem solving.
           </p>
           <div className="hk">
