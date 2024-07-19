@@ -1,5 +1,5 @@
 "use client";
-import { cibInstagram, cibLeetcode, cibLinkedin, cibLinkedinIn } from "@coreui/icons";
+import { cibInstagram, cibLeetcode, cibLinkedinIn } from "@coreui/icons";
 import { cibGithub } from "@coreui/icons";
 import CIcon from "@coreui/icons-react";
 import {
