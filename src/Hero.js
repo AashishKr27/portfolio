@@ -97,7 +97,7 @@ const Hero = () => {
       /> */}
       
       <div className="hb">
-        <div className="hbbc">
+        <div data-aos="fade-right" className="hbbc">
           <h1 className="hc">
             HI, I`M <span className="hi">ASHISH !</span>
           </h1>
@@ -115,7 +115,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="hn">
+        <div data-aos="zoom-in" className="hn">
           <img priority={true} src={ashish} alt="ashish" className="photo" />
         </div>
       </div>

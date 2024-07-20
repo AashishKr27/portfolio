@@ -53,7 +53,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="zara">
+        <div data-aos="zoom-in" className="zara">
           <p className="heading">
             SOCIAL <span className="sb">PROFILES</span>
           </p>

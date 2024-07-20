@@ -7,7 +7,7 @@ const Navbar = ({ openNav }) => {
   return (
     <>
       <div className="nava font-primary">
-        <div className="navb">
+        <div data-aos="fade-down" className="navb">
           <h1 className="navc">
             WEB
             <span className="">DEV</span>

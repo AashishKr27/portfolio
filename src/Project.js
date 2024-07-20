@@ -7,6 +7,7 @@ import diabetes from './diabetes.jpg'
 import housePrice from './housePrice.jpg'
 import weather from './weather.jpg'
 import fakeNews from './fakeNews.png'
+import devlanding from './devlanding.jpg'
 
 const Project = () => {
   return (
@@ -15,6 +16,12 @@ const Project = () => {
         PROJECTS <span className="sb">GALLERY</span>
       </p>
       <div className="grid">
+        <a data-aos="fade-right" href="https://github.com/AashishKr27/dev-landing" rel="noreferrer" target="_blank" className="bhr">
+          <div className="project">
+            <img className="img" src={devlanding} alt="amazon-clone" />
+            <h2 className="lele">DevLanding</h2>
+          </div>
+        </a>
         <a data-aos="fade-right" href="https://github.com/AashishKr27/Amazon-Clone" rel="noreferrer" target="_blank" className="bhr">
           <div className="project">
             <img className="img" src={amazomClone} alt="amazon-clone" />
@@ -27,7 +34,7 @@ const Project = () => {
             <h2 className="lele">Portfolio</h2>
           </div>
         </a>
-        <a data-aos="fade-right" href="https://github.com/AashishKr27/react-weather-app" rel="noreferrer" target="_blank" className="bhr">
+        <a data-aos="fade-up" href="https://github.com/AashishKr27/react-weather-app" rel="noreferrer" target="_blank" className="bhr">
           <div className="project">
             <img className="img" src={weather} alt="amazon-clone" />
             <h2 className="lele">Weather-App</h2>
@@ -45,7 +52,7 @@ const Project = () => {
             <h2 className="lele">Diabetes-Prediction</h2>
           </div>
         </a>
-        <a data-aos="fade-up" href="https://github.com/AashishKr27/House-Price-Prediction-using-ML" rel="noreferrer" target="_blank" className="bhr">
+        <a data-aos="fade-left" href="https://github.com/AashishKr27/House-Price-Prediction-using-ML" rel="noreferrer" target="_blank" className="bhr">
           <div className="project">
             <img className="img" src={housePrice} alt="amazon-clone" />
             <h2 className="lele">House-Price-Prediction</h2>
@@ -55,12 +62,6 @@ const Project = () => {
           <div className="project">
             <img className="img" src={fakeNews} alt="amazon-clone" />
             <h2 className="lele">Fake-News-Detection</h2>
-          </div>
-        </a>
-        <a data-aos="fade-left" href="https://github.com/AashishKr27/Amazon-Clone" rel="noreferrer" target="_blank" className="bhr">
-          <div className="project">
-            <img className="img" src={amazomClone} alt="amazon-clone" />
-            <h2 className="lele">Amazon Clone</h2>
           </div>
         </a>
         <a data-aos="fade-left" href="https://github.com/AashishKr27/Amazon-Clone" rel="noreferrer" target="_blank" className="bhr">
