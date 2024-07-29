@@ -16,9 +16,7 @@ const About = () => {
           <div className="ae">
             <span className="af"></span>
             <p className="ag">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-              vero dicta, repellendus blanditiis eveniet sapiente nihil,
-              accusantium provident, officiis eaque sequi libero.
+            Hello, I'm Ashish. Passionate about problem solving, I bring 2 years of experience in DSA & Frontend Development. I excel at C++, JavaScript, React Js, ML in Python. Committed to continuous learning and innovation, I aim to deliver exceptional results and make a meaningful impact in every project I undertake.
             </p>
           </div>
           <button className="ah">

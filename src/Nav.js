@@ -46,7 +46,7 @@ const Navbar = ({ openNav }) => {
             Skills
           </Link>
           <Link
-            to={"contact"}
+            to={"project"}
             activeClass="active"
             spy={true}
             smooth={true}
@@ -54,7 +54,7 @@ const Navbar = ({ openNav }) => {
             duration={500}
             className="nav-link"
           >
-            Contact
+            Projects
           </Link>
         </div>
       </div>

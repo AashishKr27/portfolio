@@ -7,10 +7,7 @@ const SkillsItems = ({ title, year }) => {
       <span className="jb">{year}</span>
       <h1 className="jc">{title}</h1>
       <p className="jd ">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid
-        dolor fuga sunt aliquam voluptas, repellendus magnam nemo sed? Eos
-        molestiae obcaecati dolore possimus consequatur amet exercitationem
-        dolores sint asperiores.
+      Skilled {title} with expertise in building dynamic, responsive web applications. Passionate about clean code, performance optimization, and delivering seamless user experiences. Committed to continuous learning and innovation.
       </p>
     </div>
   )

@@ -844,7 +844,7 @@ span {
   /* width: 91%; */
 }
 .l1 {
-  width: 91%;
+  width: 70%;
 }
 .l2 {
   width: 88%;
@@ -859,7 +859,13 @@ span {
   width: 70%;
 }
 .l6 {
-  width: 75%;
+  width: 60%;
+}
+.l7{
+  width: 65%;
+}
+.l8{
+  width: 80%;
 }
 
 /* TextEffect */

@@ -8,15 +8,28 @@ import housePrice from "./housePrice.jpg";
 import weather from "./weather.jpg";
 import fakeNews from "./fakeNews.png";
 import devlanding from "./devlanding.jpg";
-import spotifyClone from './spotifyClone.jpg'
+import spotifyClone from "./spotifyClone.jpg";
+import sonicHub from './sonicHub.jpg'
 
 const Project = () => {
   return (
-    <div className="cc">
+    <div id="project" className="cc">
       <p className="heading">
         PROJECTS <span className="sb">GALLERY</span>
       </p>
       <div className="grid">
+        <a
+          data-aos="fade-up"
+          href="https://github.com/AashishKr27/SONIC-HUB"
+          rel="noreferrer"
+          target="_blank"
+          className="bhr"
+        >
+          <div className="project">
+            <img className="img" src={sonicHub} alt="amazon-clone" />
+            <h2 className="lele">SONIC HUB</h2>
+          </div>
+        </a>
         <a
           data-aos="fade-up"
           href="https://github.com/AashishKr27/Spotify-Clone"
