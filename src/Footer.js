@@ -24,7 +24,7 @@ import {
             </div>
             <div className="">
               <h1 className="ff">Send Email</h1>
-              <p className="fg">fiitjeeashishkumar@gmail.com</p>
+              <p className="fg">ashishkr27062003@gmail.com</p>
             </div>
           </div>
         </div>
