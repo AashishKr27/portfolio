@@ -10,6 +10,7 @@ import fakeNews from "./fakeNews.png";
 import devlanding from "./devlanding.jpg";
 import spotifyClone from "./spotifyClone.jpg";
 import sonicHub from './sonicHub.jpg'
+import speechToText from './speechToText.jpg'
 
 const Project = () => {
   return (
@@ -50,10 +51,24 @@ const Project = () => {
           className="bhr"
         >
           <div className="project">
-            <img className="img" src={devlanding} alt="amazon-clone" />
+            <img className="img" src={devlanding} alt="dev-landing" />
             <h2 className="lele">DevLanding</h2>
           </div>
         </a>
+        {/*  */}
+        <a
+          data-aos="fade-up"
+          href="https://github.com/AashishKr27/SPEECH-TO-TEXT-CONVERTOR"
+          rel="noreferrer"
+          target="_blank"
+          className="bhr"
+        >
+          <div className="project">
+            <img className="img" src={speechToText} alt="speech-to-text" />
+            <h2 className="lele">Speech To Text</h2>
+          </div>
+        </a>
+        {/*  */}
         <a
           data-aos="fade-up"
           href="https://github.com/AashishKr27/Amazon-Clone"
