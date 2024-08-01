@@ -41,7 +41,7 @@ const Project = () => {
         >
           <div className="project">
             <img className="img" src={sonicHub} alt="amazon-clone" />
-            <h2 className="lele">SONIC HUB</h2>
+            <h2 className="lele">Sonic Hub</h2>
           </div>
         </a>
         <a
