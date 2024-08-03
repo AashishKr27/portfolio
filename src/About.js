@@ -19,12 +19,12 @@ const About = () => {
             Hello, I'm Ashish. Passionate about problem solving, I bring 2 years of experience in DSA & Frontend Development. I excel at C++, JavaScript, React Js, ML in Python. Committed to continuous learning and innovation, I aim to deliver exceptional results and make a meaningful impact in every project I undertake.
             </p>
           </div>
-          <button className="ah">
-            <a target="_blank" href={Resume} rel="noreferrer" >
-              Download CV
+          <a target="_blank" href={Resume} rel="noreferrer">
+              <button className="hl">
+                Download CV
+                <ArrowDownTrayIcon className="hm" />
+              </button>
             </a>
-            <ArrowDownTrayIcon className="ai" />
-          </button>
         </div>
         <div data-aos="fade-left" className="aj">
           <img

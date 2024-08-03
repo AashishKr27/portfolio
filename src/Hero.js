@@ -1,13 +1,13 @@
-import React from "react"
+import React from "react";
 // import Particles from "@tsparticles/react";
 // import type { Container, Engine } from "tsparticles-engine";
 // import { loadSlim } from "tsparticles-slim";
-import TextEffect from "./TextEffect.js"
+import TextEffect from "./TextEffect.js";
 // import img from "next/img"
-import ashish from "./ashish.png"
-import { ArrowDownTrayIcon } from "@heroicons/react/16/solid"
+import ashish from "./ashish.png";
+import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 // import "./Hero.css"
-import Resume from './resume.pdf'
+import Resume from "./resume.pdf";
 const Hero = () => {
   // const particlesInit = useCallback(async (engine: Engine) => {
   //   console.log(engine);
@@ -95,7 +95,7 @@ const Hero = () => {
           detectRetina: true,
         }}
       /> */}
-      
+
       <div className="hb">
         <div data-aos="fade-right" className="hbbc">
           <h1 className="hc">
@@ -107,12 +107,12 @@ const Hero = () => {
             passionate in problem solving.
           </p>
           <div className="hk">
-            <button className="hl">
-              <a target="_blank" href={Resume} rel="noreferrer">
+            <a target="_blank" href={Resume} rel="noreferrer">
+              <button className="hl">
                 Download CV
-              </a>
-              <ArrowDownTrayIcon className="hm" />
-            </button>
+                <ArrowDownTrayIcon className="hm" />
+              </button>
+            </a>
           </div>
         </div>
         <div data-aos="zoom-in" className="hn">
@@ -120,7 +120,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

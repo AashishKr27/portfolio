@@ -12,6 +12,7 @@ import spotifyClone from "./spotifyClone.jpg";
 import sonicHub from './sonicHub.jpg'
 import speechToText from './speechToText.jpg'
 import snapgram from './snapgram.jpg'
+import appleWeb from './appleWeb.jpg'
 
 const Project = () => {
   return (
@@ -20,6 +21,18 @@ const Project = () => {
         PROJECTS <span className="sb">GALLERY</span>
       </p>
       <div className="grid">
+        <a
+          data-aos="fade-up"
+          href="https://github.com/AashishKr27/Apple-Website"
+          rel="noreferrer"
+          target="_blank"
+          className="bhr"
+        >
+          <div className="project">
+            <img className="img" src={appleWeb} alt="amazon-clone" />
+            <h2 className="lele">Apple Webpage</h2>
+          </div>
+        </a>
         <a
           data-aos="fade-up"
           href="https://github.com/AashishKr27/SnapGram"

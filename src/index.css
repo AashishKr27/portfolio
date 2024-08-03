@@ -345,6 +345,7 @@ ArrowDownTrayIcon {
 }
 
 .hl {
+  cursor: pointer;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1rem;
@@ -358,6 +359,7 @@ ArrowDownTrayIcon {
   display: flex;
   align-items: center;
   gap: 0.5rem; /* space-x-2 */
+  border: none;
   transition: background-color 0.2s; /* transition-all duration-200 */
 }
 
