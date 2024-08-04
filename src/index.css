@@ -1028,3 +1028,170 @@ a{
     height: 6em;
   }
 }
+
+/* ProjectSection.css */
+.project-section {
+  padding: 60px;
+  text-align: center;
+  background: linear-gradient(135deg, #0d0d0d 0%, #1e1e1e 100%);
+  color: #fff;
+}
+
+.project-section h2 {
+  margin-bottom: 50px;
+  font-size: 3rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+  background: linear-gradient(to right, #007bff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-section h2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #00d4ff;
+  margin: 10px auto 0;
+  animation: underline 1s infinite;
+}
+
+@keyframes underline {
+  0% { width: 0; }
+  100% { width: 80px; }
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3.5em;
+}
+
+.project-card {
+  background-color: #292929;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: scale(0.95) translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: scale(1.05) translateY(0);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.project-image {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.project-content {
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: background-color 0.3s ease;
+}
+
+.project-card:hover .project-content {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #00d4ff;
+  background: linear-gradient(to right, #007bff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-card h3::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #00d4ff;
+  transition: width 0.3s;
+  margin-top: 10px;
+}
+
+.project-card:hover h3::after {
+  width: 100%;
+}
+
+.project-card p {
+  color: #bbb;
+  transition: color 0.3s;
+}
+
+.project-card:hover p {
+  color: #fff;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #007bff;
+  text-decoration: none;
+  border: 1px solid #007bff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.project-card a:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Additional subtle animations */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.project-card {
+  animation: fadeInUp 0.8s ease forwards, pulse 2s infinite;
+}
+
+@keyframes backgroundPulse {
+  0% { background: linear-gradient(135deg, #181818 0%, #0d0d0d 100%); }
+  50% { background: linear-gradient(135deg, #0d0d0d 0%, #181818 100%); }
+  100% { background: linear-gradient(135deg, #181818 0%, #0d0d0d 100%); }
+}
+
+.project-section {
+  animation: backgroundPulse 10s infinite;
+}
