@@ -1072,7 +1072,7 @@ a{
 
 .project-card {
   background-color: #292929;
-  border: none;
+  border: 1.5px solid rgb(65, 151, 227);
   border-radius: 15px;
   overflow: hidden;
   width: 300px;
