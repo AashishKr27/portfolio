@@ -25,7 +25,7 @@ const ProjectSection = () => {
         <div data-aos="fade-up" className="project-card">
           <img className="project-image" src={brainwave} alt="imag" />
           <div className="project-content">
-            <h3>SnapGram</h3>
+            <h3>Brainwave</h3>
             <p>Modern UI/UX website, developed using React Js, Vite Js and Tailwind CSS</p>
             <a
               href="https://brain-wave-beta.vercel.app/"
