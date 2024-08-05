@@ -15,6 +15,7 @@ import sonar from './sonarRock.jpg'
 import loan from './loan.png'
 import wine from './wine.jpg'
 import segment from './segment.png'
+import brainwave from './brainwave.jpg'
 
 const ProjectSection = () => {
   return (
@@ -22,12 +23,26 @@ const ProjectSection = () => {
       <h2>My Projects</h2>
       <div data-aos="fade-up" className="project-list">
         <div data-aos="fade-up" className="project-card">
+          <img className="project-image" src={brainwave} alt="imag" />
+          <div className="project-content">
+            <h3>SnapGram</h3>
+            <p>Modern UI/UX website, developed using React Js, Vite Js and Tailwind CSS</p>
+            <a
+              href="https://brain-wave-beta.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
+        <div data-aos="fade-up" className="project-card">
           <img className="project-image" src={snap} alt="imag" />
           <div className="project-content">
             <h3>SnapGram</h3>
             <p>Fully functional social media application using React Js, Tailwind CSS</p>
             <a
-              href="https://apple-website-orcin.vercel.app/"
+              href="https://github.com/AashishKr27/SnapGram"
               target="_blank"
               rel="noopener noreferrer"
             >
