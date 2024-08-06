@@ -20,7 +20,7 @@ import brainwave from './brainwave.jpg'
 const ProjectSection = () => {
   return (
     <div id="project" className="project-section">
-      <h2>My Projects</h2>
+      <h2>Projects Gallery</h2>
       <div data-aos="fade-up" className="project-list">
         <div data-aos="fade-up" className="project-card">
           <img className="project-image" src={brainwave} alt="imag" />
