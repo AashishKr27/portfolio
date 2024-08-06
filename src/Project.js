@@ -1,5 +1,5 @@
 // ProjectSection.js
-import React from "react";
+import React, { useState } from "react";
 import appleWeb from "./appleWeb.jpg";
 import ashishKumar from "./ashishKumar.jpg";
 import amazon from "./amazonClone.jpg";
@@ -18,6 +18,12 @@ import segment from './segment.png'
 import brainwave from './brainwave.jpg'
 
 const ProjectSection = () => {
+  const [showMore, setShowMore] = useState(false);
+
+  const handleToggle = () => {
+    setShowMore(!showMore);
+  };
+
   return (
     <div id="project" className="project-section">
       <h2>Projects Gallery</h2>
@@ -103,111 +109,119 @@ const ProjectSection = () => {
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" className="project-card">
-          <img className="project-image" src={spotify} alt="imag" />
-          <div className="project-content">
-            <h3>Spotify Clone</h3>
-            <p>Designed a clone website of Spotify with preloaded songs using React Js, Vite Js, Tailwind CSS</p>
-            <a
-              href="https://spotify-clone-self-psi.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Project
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-up" className="project-card">
-          <img className="project-image" src={weather} alt="imag" />
-          <div className="project-content">
-            <h3>Weather App</h3>
-            <p>Created a real-time weather application using JavaScript, React Js, Tailwind CSS</p>
-            <a href="https://react-weather-app-iota-orpin.vercel.app/" target="_blank" rel="noopener noreferrer">
-              View Project
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-up" className="project-card">
-          <img className="project-image" src={speech} alt="imag" />
-          <div className="project-content">
-            <h3>Speech To Text</h3>
-            <p>An application for converting speech into text using JavaScript, React Js, CSS</p>
-            <a href="https://speech-to-text-convertor-fawn.vercel.app/it" target="_blank" rel="noopener noreferrer">
-              View Project
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-up" className="project-card">
-          <img className="project-image" src={fake} alt="imag" />
-          <div className="project-content">
-            <h3>Fake News Detection</h3>
-            <p>Implemented a Machine Learning Model for prediciting Fake News using Python</p>
-            <a href="https://github.com/AashishKr27/Fake-News-Detection-Using-ML" target="_blank" rel="noopener noreferrer">
-              View Project
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-up" className="project-card">
-          <img className="project-image" src={diabetes} alt="imag" />
-          <div className="project-content">
-            <h3>Diabetes Prediction</h3>
-            <p>Implemented a Machine Learning Model for prediciting Diabetes using Python</p>
-            <a href="https://github.com/AashishKr27/Diabetes-Prediction-using-ML" target="_blank" rel="noopener noreferrer">
-              View Project
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-up" className="project-card">
-          <img className="project-image" src={house} alt="imag" />
-          <div className="project-content">
-            <h3>House Price Prediction</h3>
-            <p>Implemented a Machine Learning Model for prediciting House Price using Python</p>
-            <a href="https://github.com/AashishKr27/House-Price-Prediction-using-ML" target="_blank" rel="noopener noreferrer">
-              View Project
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-up" className="project-card">
-          <img className="project-image" src={loan} alt="imag" />
-          <div className="project-content">
-            <h3>Loan Status Prediction</h3>
-            <p>Implemented a Machine Learning Model for prediciting Loan Status using Python</p>
-            <a href="https://github.com/AashishKr27/Loan-Status-Prediction-Using-ML" target="_blank" rel="noopener noreferrer">
-              View Project
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-up" className="project-card">
-          <img className="project-image" src={wine} alt="imag" />
-          <div className="project-content">
-            <h3>Wine Quality Prediction</h3>
-            <p>Implemented a Machine Learning Model for prediciting Wine Quality using Python</p>
-            <a href="https://github.com/AashishKr27/Wine-Quality-Prediction-Using-ML" target="_blank" rel="noopener noreferrer">
-              View Project
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-up" className="project-card">
-          <img className="project-image" src={sonar} alt="imag" />
-          <div className="project-content">
-            <h3>Sonar Rock Vs Mine</h3>
-            <p>Implemented a Machine Learning Model for prediciting Sonar Rock & Mine using Python</p>
-            <a href="https://github.com/AashishKr27/Sonar-Rock-vs-Mine-Prediction" target="_blank" rel="noopener noreferrer">
-              View Project
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-up" className="project-card">
-          <img className="project-image" src={segment} alt="imag" />
-          <div className="project-content">
-            <h3>Customer Segmentation</h3>
-            <p>Implemented a Machine Learning Model for Customer Segmentation using Python</p>
-            <a href="https://github.com/AashishKr27/Customer-Segmentation-Using-ML" target="_blank" rel="noopener noreferrer">
-              View Project
-            </a>
-          </div>
-        </div>
+
+        {showMore && (
+          <>
+            <div data-aos="fade-up" className="project-card">
+              <img className="project-image" src={spotify} alt="imag" />
+              <div className="project-content">
+                <h3>Spotify Clone</h3>
+                <p>Designed a clone website of Spotify with preloaded songs using React Js, Vite Js, Tailwind CSS</p>
+                <a
+                  href="https://spotify-clone-self-psi.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="project-card">
+              <img className="project-image" src={weather} alt="imag" />
+              <div className="project-content">
+                <h3>Weather App</h3>
+                <p>Created a real-time weather application using JavaScript, React Js, Tailwind CSS</p>
+                <a href="https://react-weather-app-iota-orpin.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  View Project
+                </a>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="project-card">
+              <img className="project-image" src={speech} alt="imag" />
+              <div className="project-content">
+                <h3>Speech To Text</h3>
+                <p>An application for converting speech into text using JavaScript, React Js, CSS</p>
+                <a href="https://speech-to-text-convertor-fawn.vercel.app/it" target="_blank" rel="noopener noreferrer">
+                  View Project
+                </a>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="project-card">
+              <img className="project-image" src={fake} alt="imag" />
+              <div className="project-content">
+                <h3>Fake News Detection</h3>
+                <p>Implemented a Machine Learning Model for prediciting Fake News using Python</p>
+                <a href="https://github.com/AashishKr27/Fake-News-Detection-Using-ML" target="_blank" rel="noopener noreferrer">
+                  View Project
+                </a>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="project-card">
+              <img className="project-image" src={diabetes} alt="imag" />
+              <div className="project-content">
+                <h3>Diabetes Prediction</h3>
+                <p>Implemented a Machine Learning Model for prediciting Diabetes using Python</p>
+                <a href="https://github.com/AashishKr27/Diabetes-Prediction-using-ML" target="_blank" rel="noopener noreferrer">
+                  View Project
+                </a>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="project-card">
+              <img className="project-image" src={house} alt="imag" />
+              <div className="project-content">
+                <h3>House Price Prediction</h3>
+                <p>Implemented a Machine Learning Model for prediciting House Price using Python</p>
+                <a href="https://github.com/AashishKr27/House-Price-Prediction-using-ML" target="_blank" rel="noopener noreferrer">
+                  View Project
+                </a>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="project-card">
+              <img className="project-image" src={loan} alt="imag" />
+              <div className="project-content">
+                <h3>Loan Status Prediction</h3>
+                <p>Implemented a Machine Learning Model for prediciting Loan Status using Python</p>
+                <a href="https://github.com/AashishKr27/Loan-Status-Prediction-Using-ML" target="_blank" rel="noopener noreferrer">
+                  View Project
+                </a>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="project-card">
+              <img className="project-image" src={wine} alt="imag" />
+              <div className="project-content">
+                <h3>Wine Quality Prediction</h3>
+                <p>Implemented a Machine Learning Model for prediciting Wine Quality using Python</p>
+                <a href="https://github.com/AashishKr27/Wine-Quality-Prediction-Using-ML" target="_blank" rel="noopener noreferrer">
+                  View Project
+                </a>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="project-card">
+              <img className="project-image" src={sonar} alt="imag" />
+              <div className="project-content">
+                <h3>Sonar Rock Vs Mine</h3>
+                <p>Implemented a Machine Learning Model for prediciting Sonar Rock & Mine using Python</p>
+                <a href="https://github.com/AashishKr27/Sonar-Rock-vs-Mine-Prediction" target="_blank" rel="noopener noreferrer">
+                  View Project
+                </a>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="project-card">
+              <img className="project-image" src={segment} alt="imag" />
+              <div className="project-content">
+                <h3>Customer Segmentation</h3>
+                <p>Implemented a Machine Learning Model for Customer Segmentation using Python</p>
+                <a href="https://github.com/AashishKr27/Customer-Segmentation-Using-ML" target="_blank" rel="noopener noreferrer">
+                  View Project
+                </a>
+              </div>
+            </div>
+          </>
+        )}
       </div>
+      <button className="see-more-btn" onClick={handleToggle}>
+        {showMore ? "Show Less" : "See More"}
+      </button>
     </div>
   );
 };
