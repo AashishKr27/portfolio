@@ -116,7 +116,7 @@ const Hero = () => {
           </div>
         </div>
         <div data-aos="zoom-in" className="hn">
-          <img priority={true} src={ashish} alt="ashish" className="photo" />
+          <img src={ashish} alt="ashish" className="photo" />
         </div>
       </div>
     </div>

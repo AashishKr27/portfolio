@@ -29,7 +29,6 @@ const About = () => {
         <div data-aos="fade-left" className="aj">
           <img
             src={aboutMe}
-            priority={true}
             alt="user"
             className="aboutImg"
           />
