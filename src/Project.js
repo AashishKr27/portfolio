@@ -17,6 +17,7 @@ import wine from "./wine.jpg";
 import segment from "./segment.png";
 import brainwave from "./brainwave.jpg";
 import hotel from './hotel.jpg'
+import carhub from './carhub.jpg'
 
 const ProjectSection = () => {
   const [showMore, setShowMore] = useState(false);
@@ -29,6 +30,23 @@ const ProjectSection = () => {
     <div id="project" className="project-section">
       <h2>Projects Gallery</h2>
       <div data-aos="fade-up" className="project-list">
+        <div data-aos="fade-up" className="project-card">
+          <img className="project-image" src={carhub} alt="imag" />
+          <div className="project-content">
+            <h3>CarHub</h3>
+            <p>
+              An application to book or rent a car using TypeScript, Next Js, React Js, Tailwind CSS
+            </p>
+            <a
+              href="https://drive-it-five.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
+
         <div data-aos="fade-up" className="project-card">
           <img className="project-image" src={brainwave} alt="imag" />
           <div className="project-content">
