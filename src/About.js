@@ -1,9 +1,9 @@
-import { ArrowDownTrayIcon } from "@heroicons/react/16/solid"
+import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 // import img from "next/img"
-import React from "react"
-import aboutMe from "./aboutMe.png"
+import React from "react";
+import aboutMe from "./aboutMe.png";
 // import "./About.css"
-import Resume from './resume.pdf'
+import Resume from "./resume.pdf";
 const About = () => {
   return (
     <div id="about" className="aa">
@@ -16,27 +16,27 @@ const About = () => {
           <div className="ae">
             <span className="af"></span>
             <p className="ag">
-            Hello, I'm Ashish. Passionate about problem solving, I bring 2 years of experience in DSA & Frontend Development. I excel at C++, JavaScript, React Js, ML in Python. Committed to continuous learning and innovation, I aim to deliver exceptional results and make a meaningful impact in every project I undertake.
+              Hello, I'm Ashish. Passionate about problem solving, I bring 2
+              years of experience in DSA & Frontend Development. I excel at C++,
+              JavaScript, React Js, ML in Python. Committed to continuous
+              learning and innovation, I aim to deliver exceptional results and
+              make a meaningful impact in every project I undertake.
             </p>
           </div>
           <a target="_blank" href={Resume} rel="noreferrer">
-              <button className="hl">
-                Download CV
-                <ArrowDownTrayIcon className="hm" />
-              </button>
-            </a>
+            <button className="hl">
+              Download CV
+              <ArrowDownTrayIcon className="hm" />
+            </button>
+          </a>
         </div>
         <div data-aos="fade-left" className="aj">
-          <img
-            src={aboutMe}
-            alt="user"
-            className="aboutImg"
-          />
+          <img src={aboutMe} alt="user" className="aboutImg" />
           <div className="ak"></div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
