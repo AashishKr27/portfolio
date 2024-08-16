@@ -18,6 +18,7 @@ import segment from "./segment.png";
 import brainwave from "./brainwave.jpg";
 import hotel from './hotel.jpg'
 import carhub from './carhub.jpg'
+import livedocs from './livedocs.jpg'
 
 const ProjectSection = () => {
   const [showMore, setShowMore] = useState(false);
@@ -30,6 +31,24 @@ const ProjectSection = () => {
     <div id="project" className="project-section">
       <h2>Projects Gallery</h2>
       <div data-aos="fade-up" className="project-list">
+
+        <div data-aos="fade-up" className="project-card">
+          <img className="project-image" src={livedocs} alt="imag" />
+          <div className="project-content">
+            <h3>LiveDocs</h3>
+            <p>
+              A clone application of Google Docs using TypeScript, Next Js, React Js, Tailwind CSS
+            </p>
+            <a
+              href="https://live-docs-psi-nine.vercel.app/sign-in"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
+
         <div data-aos="fade-up" className="project-card">
           <img className="project-image" src={carhub} alt="imag" />
           <div className="project-content">
