@@ -3,7 +3,7 @@ import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 import React from "react";
 import aboutMe from "./aboutMe.png";
 // import "./About.css"
-import Resume from "./resume.pdf";
+import Resume from './resume.pdf'
 const About = () => {
   return (
     <div id="about" className="aa">

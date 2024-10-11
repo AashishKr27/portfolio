@@ -7,7 +7,7 @@ import TextEffect from "./TextEffect.js";
 import ashish from "./ashish.png";
 import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 // import "./Hero.css"
-import Resume from "./resume.pdf";
+import Resume from './resume.pdf'
 const Hero = () => {
   // const particlesInit = useCallback(async (engine: Engine) => {
   //   console.log(engine);
